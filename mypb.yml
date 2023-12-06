@@ -1,0 +1,14 @@
+---
+# Date: 2023-12-06 13:36 CST
+
+- name: "test"
+  hosts: localhost
+  # order: shuffle
+  gather_facts: false
+  # serial: 10
+
+  tasks:
+    - name: "Test --> this"
+      ansible.builtin.debug:
+        msg: |
+          this is a test message
