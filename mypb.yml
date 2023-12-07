@@ -12,3 +12,4 @@
       ansible.builtin.debug:
         msg: |
           this is a test message
+      failed_when: true

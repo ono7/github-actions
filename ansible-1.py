@@ -29,7 +29,7 @@
 #     print("****** results ******")
 #     print(json.dumps(results, indent=4))
 
-
+###########################################
 import subprocess
 import json
 
@@ -41,10 +41,9 @@ def run_playbook(playbook_path, extra_vars=None):
             cmd.extend(["-e", f"{key}={value}"])
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
-        print("Playbook execution failed")
+        print(result)
         return None
     else:
-        print("Playbook executed successfully")
         return result.stdout
 
 

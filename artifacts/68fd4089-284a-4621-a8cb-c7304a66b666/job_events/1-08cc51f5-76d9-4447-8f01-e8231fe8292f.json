@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "08cc51f5-76d9-4447-8f01-e8231fe8292f", "counter": 1, "stdout": "\u001b[1;35m[WARNING]: Unable to parse /Users/jlima/github.com/github-actions/inventory.cfg\u001b[0m", "start_line": 0, "end_line": 1, "runner_ident": "68fd4089-284a-4621-a8cb-c7304a66b666", "created": "2023-12-06T19:56:02.517807"}
